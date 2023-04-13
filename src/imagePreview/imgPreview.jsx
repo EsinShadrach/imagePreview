@@ -112,7 +112,7 @@ export default function ImagePreview() {
 			<UploadButton
 				handleFile={handleFile}
 				inputRef={inputRef}
-				fileData={fileData.length}
+				imageCount={fileData.length}
 			/>
 			<Images
 				openGallery={openGallery}
